@@ -12,6 +12,7 @@ function fibonacci(n) {
   return fib;
 }
 
+console.log("Fib(0)", fibonacci(0));
 console.log("Fib(1)", fibonacci(1));
 console.log("Fib(3)", fibonacci(3));
 console.log("Fib(5)", fibonacci(5));

@@ -9,10 +9,12 @@
  */
 
 function factorial(n) {
-  if (n < 2) return n;
+  if (n === 0) return 1;
 
   return n * factorial(n - 1);
 }
 
 console.log("4!", factorial(4));
 console.log("5!", factorial(5));
+
+// Big - O = O(n)
